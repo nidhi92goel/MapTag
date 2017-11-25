@@ -19,32 +19,32 @@
 <br>
 <div class="flex-container">
   <div class="map">
-    <div class="explainer">
+
+    <div class="explainer-overlay">
+
       <div class="explainer-text">
-        <h2>See what's trending...</h2>
+        <h2>See what's trending...  <br></h2>
       </div>
 
       <div class="search-container">
 
+          <input type="text" id="search-box" placeholder="Search">
 
-        <form action="/action_page.php">
-          <input type="text" placeholder="Search.." name="search">
-          <button type="submit"><<i class="fa fa-search" aria-hidden="true"></i></button>
-
-        </form>
+            <div id="button">
+              CLICK HERE TO SEARCH
+            </div>
       </div>
     </div>
     <div id="map">map</div>
   </div>
 
 
-  <div class="feed">feed</div>
+  <div id="feed" class="feed">
+    
+  </div>
 </div>
-<script>
-    var map = new GMaps({
-      el: '#map',
-      lat: -12.043333,
-      lng: -77.028333
-    });
-  </script>
+
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/entry.js"></script>
+
 </body>
