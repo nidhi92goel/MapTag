@@ -1,0 +1,46 @@
+
+#topbar {
+  font-family: 'Inconsolata', monospace;
+  font-size: 35px;
+  height: 85px;
+  text-align: left;
+}
+
+#topbar h1 {
+  vertical-align: text-top;
+  position: relative;
+  vertical-align: super;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: 'Inconsolata', monospace;
+}
+
+.flex-container>div {
+  height: 800px;
+}
+
+.map {
+  background-color: green;
+  flex-shrink: 1;
+  width: 800px;
+}
+
+.feed {
+  background-color: pink;
+  flex-shrink: 1;
+  width: 500px;
+}
+
+.explainer {
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5px 30px 10px 5px;
+}
