@@ -1,13 +1,14 @@
 function getTrends(place, successCallback) {
-  fetch('flowers.jpg').then(function(response) {
-    return response.blob();
-  }).then(function(results, status) {
-      if (status === "OK") {
-        successCallback(results)
-      } else {
-        alert("error")
-      }
-  })
+  successCallback(["hashtag1", "hashtag2"])
+  // fetch('flowers.jpg').then(function(response) {
+  //   return response.blob();
+  // }).then(function(results, status) {
+  //     if (status === "OK") {
+  //       successCallback(results)
+  //     } else {
+  //       alert("error")
+  //     }
+  // })
 }
 
 function loadMap() {

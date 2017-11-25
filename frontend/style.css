@@ -53,8 +53,9 @@
 
 #button {
   height: 20px;
-  width: 40px;
-  background-color: yellow;
+  width: 50px;
+  background-color: #DDDDDD;
+  vertical-align: center;
 }
 .feed {
   height: 100%;
@@ -67,8 +68,5 @@
   padding: 5px 30px 10px 5px;
   background-color: #ffffff;
   opacity: .8;
-}
-
-.search-container {
-  padding-top: 20px;
+  align-items: center;
 }
