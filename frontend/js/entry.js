@@ -1,13 +1,12 @@
 function getTrends(place, successCallback) {
-  fetch('flowers.jpg').then(function(response) {
-    return response.blob();
+  fetch(`http://localhost:8080/?place=${place}`).then(function(response) {
+    return response.json();
   }).then(function(results, status) {
-      if (status === "OK") {
-        successCallback(results)
-      } else {
-        alert("error")
-      }
-  })
+    console.log(results)
+    successCallback(results)
+  }).catch(function(err) {
+    console.log(err)
+});
 }
 
 function loadMap() {
@@ -35,23 +34,9 @@ $("#button").click(function () {
    console.log(newtrends)
 
    var feed = document.getElementById("feed")
-
+   feed.innerHTML = ''
    newtrends.forEach(function(divTrend) {
      feed.appendChild(divTrend)
    })
  })
-
-// var divList = []
-// for (var i = 0; i < trends.length; i++) {
-//   var trend = trends[i]
-//   var div = document.createElement("div");
-//  div.style.width = "100px";
-//  div.style.height = "100px";
-//  div.style.background = "red";
-//  div.style.color = "white";
-//  div.innerHTML = trend;
-//  divList.push(div);
-// }
-
- // console.log(trends)
 });
