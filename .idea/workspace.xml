@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="848d9cf2-e6da-458a-bba7-eb204791bf2a" name="Default" comment="" />
+    <list default="true" id="848d9cf2-e6da-458a-bba7-eb204791bf2a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/.gitignore" afterPath="$PROJECT_DIR$/backend/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/.mvn/wrapper/maven-wrapper.properties" afterPath="$PROJECT_DIR$/backend/.mvn/wrapper/maven-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/mvnw" afterPath="$PROJECT_DIR$/backend/mvnw" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/mvnw.cmd" afterPath="$PROJECT_DIR$/backend/mvnw.cmd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/MapTag/MapTagApplication.java" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/MapTag/MapTagApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/MapTag/controllers/TwitterController.java" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/MapTag/controllers/TwitterController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/MapTag/service/TwitterService.java" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/MapTag/service/TwitterService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/MapTag/service/TwitterServiceImpl.java" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/MapTag/service/TwitterServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/src/test/java/com/example/MapTag/MapTagApplicationTests.java" afterPath="$PROJECT_DIR$/backend/src/test/java/com/example/MapTag/MapTagApplicationTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/src/test/java/com/example/MapTag/service/TwitterServiceImplTest.java" afterPath="$PROJECT_DIR$/backend/src/test/java/com/example/MapTag/service/TwitterServiceImplTest.java" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +60,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -61,12 +72,13 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
