@@ -1,3 +1,5 @@
+
+
 function getTrends(place, successCallback) {
   fetch(`http://localhost:8080/?place=${place}`).then(function(response) {
     return response.json();
@@ -10,7 +12,7 @@ function getTrends(place, successCallback) {
 }
 
 function loadMap() {
-  var map = new GMaps({
+  window.ourMap = new GMaps({
     el: '#map',
     lat: -12.043333,
     lng: -77.028333
@@ -38,5 +40,19 @@ $("#button").click(function () {
    newtrends.forEach(function(divTrend) {
      feed.appendChild(divTrend)
    })
+
+   GMaps.geocode({
+    address: search,
+    callback: function(results, status) {
+      if (status == 'OK') {
+        var latlng = results[0].geometry.location;
+        window.ourMap.setCenter(latlng.lat(), latlng.lng());
+        window.ourMap.addMarker({
+          lat: latlng.lat(),
+          lng: latlng.lng()
+        });
+      }
+    }
+  });
  })
 });
