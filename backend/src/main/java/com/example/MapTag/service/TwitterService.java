@@ -1,8 +1,10 @@
 package com.example.MapTag.service;
 
+import java.util.ArrayList;
+
 public interface TwitterService {
 
-    String[] getTrends(int id);
+    ArrayList<String> getTrends(int id);
 
     int getId(String place);
 
