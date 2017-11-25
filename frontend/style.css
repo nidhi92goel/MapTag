@@ -36,10 +36,10 @@
 
 }
 
-.map {
+#map {
   flex-shrink: 1;
-  width: 400px;
-  height: 400px;
+  width: 600px;
+  height: 500px;
 }
 
 .feed {
@@ -48,9 +48,6 @@
   width: 500px;
 }
 
-#map {
-  height: 100%;
-}
 
 #button {
   height: 20px;
