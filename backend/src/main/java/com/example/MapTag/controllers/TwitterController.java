@@ -16,7 +16,7 @@ public class TwitterController {
     @Autowired
     TwitterService twitterService;
 
-    @GetMapping(value = "/")
+    @GetMapping(value = "/", produces = "application/json")
     @ResponseBody
     ArrayList<String> home(@RequestParam("place") String place) {
 
