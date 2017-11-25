@@ -9,7 +9,10 @@ public class TwitterController {
 
         @GetMapping(value = "/")
         @ResponseBody
-        String home() {
+        java.lang.String home() {
+
+
+
             return "Hello World maptag!";
         }
 

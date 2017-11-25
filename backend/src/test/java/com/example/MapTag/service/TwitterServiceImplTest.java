@@ -16,7 +16,9 @@ public class TwitterServiceImplTest {
 
     @Test
     public void getTrends() throws Exception {
-        twitterService.getTrends(1);
+        int id=twitterService.getId("London");
+        System.out.println(id);
+        twitterService.getTrends(id);
     }
 
 }

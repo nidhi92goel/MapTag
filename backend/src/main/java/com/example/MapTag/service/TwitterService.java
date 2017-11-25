@@ -1,9 +1,10 @@
 package com.example.MapTag.service;
 
 public interface TwitterService {
-    void getTrends(int id);
 
+    String[] getTrends(int id);
 
+    int getId(String place);
 
 
 }
